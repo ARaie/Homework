@@ -25,7 +25,7 @@ Tested website is [Boost Casino](https://www.boostcasino.com/). The framework in
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/test-automation-challenge.git
+   git clone https://github.com/ARaie/Homework.git
    cd test-automation-challenge
    
 2. Install the required dependencies
