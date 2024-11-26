@@ -1,7 +1,7 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
 
 Given("I visit the BoostCasino website for game search", function () {
-  cy.visit("https://www.boostcasino.com");  // Aadress, millele soovite minna
+  cy.visit("https://www.boostcasino.com");  
 });
 
 When('I search for {string}', (gameName) => {
@@ -18,5 +18,5 @@ When('I click the {string} button on the game', () => {
 });
 
 Then('the game should start loading', () => {
-  cy.url().should('include', '/slots/book-of-dead');  // Kontrollige, et mängu URL avatakse
+  cy.url().should('include', '/slots/book-of-dead');  // Verifing that correct url is opened
 });
